@@ -35,15 +35,44 @@
             <input id="pol" type="radio" name="pol"> Женский
             <input type="radio" name="pol" checked> Мужской
             </p>
-            <p>
-            <input type="submit" value= "Отправить"><input type="reset" value= "Очистить">
-            </p>
              <p>
             <label for="sub">Получать письма</label>
             <input id="sub" type="checkbox" name="sub"> Все
             <input type="checkbox" name="sub"> Бизнесу
             <input type="checkbox" name="sub"> Акциям
             <input type="checkbox" name="sub"> Forex
+            </p>
+            <p>
+            <label for="phone">Укажите ТЕЛЕФОН     </label>
+            <input id="phone" type="tel" placeholder="Ваш телефон" maxlength="5" >
+            </p>
+            <p>
+            <label for="web">Укажите Сайт, если есть     </label>
+            <input id="web" type="url" placeholder="Ваш сайт" maxlength="5" >
+            </p>
+            <p>
+            <label for="pass">Укажите пароль     </label>
+            <input id="pass" type="password">
+            </p>
+            <p>
+            <label for="num">Ваш вес (кг)     </label>
+            <input id="num" type="number" min="35" max="200" step="5">
+            </p>
+            <p>
+            <label for="ran">Ваш рост (см)     </label>
+            <input oninput="out.value=(ran.value)" id="ran" type="range" min="35" max="200" value="100">
+            <output id="out">100</output>
+            </p>
+            <p>
+            <label for="dr">Укажите ДР</label>
+            <input id="dr" type="date" name="dr">
+            </p>
+                <p>
+            <label for="time">Укажите время</label>
+            <input id="time" type="time" name="time">
+            </p>
+            <p>
+            <input type="submit" value= "Отправить"><input type="reset" value= "Очистить">
             </p>
         </form>
 
@@ -131,7 +160,6 @@
             </tbody>
         </table>
         <hr>
-        <p> Некий текст</p>
         <hr>
         <hr>
         <p>2015&copy Бижанов Евгений</p>
