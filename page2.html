@@ -1,0 +1,138 @@
+<!DOCTYPE HTML>
+
+   <html>
+    <head>
+        <title>test site</title>
+        <meta charset= "UTF-8">
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+    </head>
+    <!--Комментарий-->
+    <body>
+        <h1> Заголовок 1 level</h1>
+        <h2> Примеры и практика</h2>
+        <hr>
+        <a href="index.html">Главная</a>&nbsp; &nbsp; &nbsp; <a href="#">Страница 2</a>
+        <hr>
+       <h3> Формы на сайте </h3>
+        <style>
+            label{
+                width: 150px;
+                display: inline-block;
+                cursor: pointer;
+        </style>
+        <form action="#" name="MyForm">
+            <p>
+            <label for="name">Укажите имя</label>
+            <input id="name" type="text" placeholder="Ваше Имя" required autofocus>
+            </p>
+            <p>
+            <label for="mail">Укажите email</label>
+            <input id="mail" type="email" placeholder="Ваш email" required>
+            </p>
+            <p>
+            <label for="pol">Укажите Ваш пол</label>
+            <input id="pol" type="radio" name="pol"> Женский
+            <input type="radio" name="pol" checked> Мужской
+            </p>
+            <p>
+            <input type="submit" value= "Отправить"><input type="reset" value= "Очистить">
+            </p>
+             <p>
+            <label for="sub">Получать письма</label>
+            <input id="sub" type="checkbox" name="sub"> Все
+            <input type="checkbox" name="sub"> Бизнесу
+            <input type="checkbox" name="sub"> Акциям
+            <input type="checkbox" name="sub"> Forex
+            </p>
+        </form>
+
+         <h3>Основы таблиц</h3>
+        <style>
+            table{
+                border-collapse: collapse;
+                text-align: center;
+            }
+            th, td{
+                border:1px solid #ccc;
+            }
+            thead{
+                background: #eee;
+                border:5px solid #ccc;
+            }
+            tfoot{
+                background: #fcf7ba;
+                border:5px solid #ccc;
+        </style>
+        <table>
+           <caption> Удивительные животные</caption>
+           <colgroup>
+               <col style="width:150px; border:6px solid #ccc">
+            </colgroup>
+            <colgroup style=border:5px solid #ccc; >
+               <col style="width:350px;">
+               <col style="width:200px;">
+               <col style="width:300px;">
+               <col style="width:50px;">
+            </colgroup>
+            <colgroup>
+               <col style="width:150px; border:3px solid #ccc;">
+            </colgroup>
+            <thead>
+                <tr>
+                    <th>Животное</th>
+                    <th>Описание</th>
+                    <th>Окрас</th>
+                    <th>Характер</th>
+                    <th>Жизнь</th>
+                    <th>Рекомендация</th>
+                </tr>
+            </thead>
+            <tfoot>
+                <tr>
+                    <th>Итого</th>
+                    <td rowspan="2" colspan="4" style="text-align:right;">Общая продолжительноссть жизни - 66 Лет</td>
+                    <td rowspan="2">Избегать</td>
+                </tr>
+                <tr>
+                    <td> 4 зверя</td>
+                </tr>
+
+            </tfoot>
+            <tbody>
+                <tr>
+                    <td>Краколев</td>
+                    <td>С одной стороны голова льва , а  с другой кракодила</td>
+                    <td>Красно-рыже-зеленый</td>
+                    <td>Злой</td>
+                    <td>1 год</td>
+                    <td rowspan="3">Держать подальше от детей</td>
+                </tr>
+                <tr>
+                    <td>Пчеловек</td>
+                    <td>Бородатый с усиками и синим жалом</td>
+                    <td>Полосатый, желто-черный</td>
+                    <td>Громкий</td>
+                    <td rowspan="2">20 лет</td>
+                </tr>
+                <tr>
+                    <td>Попугад</td>
+                    <td>Гордый птыц с завешенной самооценкой</td>
+                    <td>Пестрый</td>
+                    <td>Вредный</td>
+                </tr>
+                <tr>
+                    <td>Хомякоид</td>
+                    <td>Хомяк-андроид</td>
+                    <td colspan="2">На выбор</td>
+                    <td>5 лет</td>
+                    <td>Не мочить</td>
+                </tr>
+            </tbody>
+        </table>
+        <hr>
+        <hr>
+        <hr>
+        <p>2015&copy Бижанов Евгений</p>
+    </body>
+</html>
